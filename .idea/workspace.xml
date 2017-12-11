@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60fe7cea-7cf1-438b-9588-318a4a65ef66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/util/csv/CSVReaderService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/Discount.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/Discount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/Item.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/Item.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/brand/AdidasBrand.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/brand/AdidasBrand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/brand/ArrowBrand.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/brand/ArrowBrand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/brand/Brand.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/brand/Brand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/brand/BrandEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/brand/BrandEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/brand/ProvogueBrand.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/brand/ProvogueBrand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/brand/UCBBrand.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/brand/UCBBrand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/brand/VeroModaBrand.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/brand/VeroModaBrand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/brand/WranglerBrand.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/brand/WranglerBrand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/CasualsItemCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/CasualsItemCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/DressItemCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/DressItemCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/FootwearItemCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/FootwearItemCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/ItemCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/ItemCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/ItemCategoryEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/ItemCategoryEnum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/JeansItemCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/JeansItemCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/MensWearBaseCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/MensWearBaseCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/ShirtItemCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/ShirtItemCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/TrousersItemCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/TrousersItemCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/category/WomensWearBaseCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/category/WomensWearBaseCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/factory/BrandFactoryRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/factory/BrandFactoryRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/factory/CategoryFactoryRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/factory/CategoryFactoryRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/domain/factory/ItemFactoryRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/domain/factory/ItemFactoryRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/exception/ItemValidationException.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/exception/ItemValidationException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/DiscountRule.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/DiscountRule.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/Inventory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/Inventory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/ItemPriceCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/ItemPriceCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/SGItemPriceCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/SGItemPriceCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/SGMallDiscountRule.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/SGMallDiscountRule.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/factory/BrandFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/factory/BrandFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/factory/CategoryFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/factory/CategoryFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/factory/Factory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/factory/Factory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/factory/ItemFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/factory/ItemFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/sg/service/util/BaseItemCategories.java" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/util/BaseItemCategories.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sg/service/DiscountRule.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/sg/service/DiscountRule.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InventoryDiscountMS.iml" afterPath="$PROJECT_DIR$/InventoryDiscountMS.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -270,6 +233,14 @@
       <option name="presentableId" value="Default" />
       <updated>1512894123879</updated>
     </task>
+    <task id="LOCAL-00001" summary="REFACTORED PACKAGE STRUCTURE">
+      <created>1512967279146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512967279146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -304,6 +275,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="REFACTORED PACKAGE STRUCTURE" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTORED PACKAGE STRUCTURE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
