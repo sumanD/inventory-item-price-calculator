@@ -45,9 +45,13 @@ Inventory (the list of items that shop has):
 Id | Brand            | Category          | Price    | Discounted Price
 --------------------------------------------------------------------------
 1  | Arrow            | Shirts            | 800      | 640
+
 2  | Vero Moda        | Dresses           | 1400     | 560
+
 3  | Provogue         | Footwear          | 1800     | 900
+
 4  | Wrangler         | Jeans             | 2200     | 1760
+
 5  | UCB              | Shirts            | 1500     | 1500
 --------------------------------------------------------------------------
 
