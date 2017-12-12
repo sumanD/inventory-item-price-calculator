@@ -53,6 +53,7 @@ Id | Brand            | Category          | Price    | Discounted Price
 4  | Wrangler         | Jeans             | 2200     | 1760
 
 5  | UCB              | Shirts            | 1500     | 1500
+
 --------------------------------------------------------------------------
 
 You will be given the above table (without discounted price) in CSV form as standard input. This is the shop inventory.
