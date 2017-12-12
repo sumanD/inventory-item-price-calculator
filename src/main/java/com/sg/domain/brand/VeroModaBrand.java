@@ -1,6 +1,6 @@
-package main.java.com.sg.domain.brand;
+package com.sg.domain.brand;
 
-import main.java.com.sg.domain.Discount;
+import com.sg.domain.Discount;
 
 public class VeroModaBrand extends Brand{
 

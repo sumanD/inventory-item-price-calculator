@@ -1,11 +1,11 @@
-package main.java.com.sg.service.factory;
+package com.sg.service.factory;
 
-import main.java.com.sg.domain.Item;
-import main.java.com.sg.domain.brand.Brand;
-import main.java.com.sg.domain.category.ItemCategory;
-import main.java.com.sg.domain.factory.BrandFactoryRequest;
-import main.java.com.sg.domain.factory.CategoryFactoryRequest;
-import main.java.com.sg.domain.factory.ItemFactoryRequest;
+import com.sg.domain.Item;
+import com.sg.domain.brand.Brand;
+import com.sg.domain.category.ItemCategory;
+import com.sg.domain.factory.BrandFactoryRequest;
+import com.sg.domain.factory.CategoryFactoryRequest;
+import com.sg.domain.factory.ItemFactoryRequest;
 
 public final class ItemFactory implements Factory<Item, ItemFactoryRequest>{
 

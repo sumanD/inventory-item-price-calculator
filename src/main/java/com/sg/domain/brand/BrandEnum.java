@@ -1,4 +1,4 @@
-package main.java.com.sg.domain.brand;
+package com.sg.domain.brand;
 
 public enum BrandEnum {
     WRANGLER("Wrangler",10),

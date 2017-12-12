@@ -1,7 +1,7 @@
-package main.java.com.sg.domain.category;
+package com.sg.domain.category;
 
-import main.java.com.sg.domain.Discount;
-import main.java.com.sg.service.util.BaseItemCategories;
+import com.sg.domain.Discount;
+import com.sg.service.util.BaseItemCategories;
 
 public enum ItemCategoryEnum {
 

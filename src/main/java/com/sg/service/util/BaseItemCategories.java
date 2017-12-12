@@ -1,9 +1,9 @@
-package main.java.com.sg.service.util;
+package com.sg.service.util;
 
-import main.java.com.sg.domain.category.ItemCategory;
-import main.java.com.sg.domain.category.ItemCategoryEnum;
-import main.java.com.sg.domain.factory.CategoryFactoryRequest;
-import main.java.com.sg.service.factory.CategoryFactory;
+import com.sg.domain.category.ItemCategory;
+import com.sg.domain.category.ItemCategoryEnum;
+import com.sg.domain.factory.CategoryFactoryRequest;
+import com.sg.service.factory.CategoryFactory;
 
 import java.util.HashMap;
 import java.util.Map;

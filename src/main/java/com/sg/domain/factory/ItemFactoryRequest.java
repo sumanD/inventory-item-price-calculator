@@ -1,4 +1,4 @@
-package main.java.com.sg.domain.factory;
+package com.sg.domain.factory;
 
 public class ItemFactoryRequest {
     private int itemId;

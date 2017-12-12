@@ -1,4 +1,4 @@
-package main.java.com.sg.domain.factory;
+package com.sg.domain.factory;
 
 public class CategoryFactoryRequest {
     private String categoryName;

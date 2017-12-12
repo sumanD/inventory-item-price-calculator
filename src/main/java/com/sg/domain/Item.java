@@ -1,7 +1,7 @@
-package main.java.com.sg.domain;
+package com.sg.domain;
 
-import main.java.com.sg.domain.brand.Brand;
-import main.java.com.sg.domain.category.ItemCategory;
+import com.sg.domain.brand.Brand;
+import com.sg.domain.category.ItemCategory;
 
 public class Item {
     private int itemId;

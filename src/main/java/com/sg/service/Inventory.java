@@ -1,7 +1,7 @@
-package main.java.com.sg.service;
+package com.sg.service;
 
-import main.java.com.sg.domain.brand.Brand;
-import main.java.com.sg.domain.category.ItemCategory;
+import com.sg.domain.brand.Brand;
+import com.sg.domain.category.ItemCategory;
 
 import java.util.ArrayList;
 import java.util.List;

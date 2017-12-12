@@ -1,6 +1,6 @@
-package main.java.com.sg.domain.category;
+package com.sg.domain.category;
 
-import main.java.com.sg.domain.Discount;
+import com.sg.domain.Discount;
 
 public abstract class ItemCategory {
     protected String name;

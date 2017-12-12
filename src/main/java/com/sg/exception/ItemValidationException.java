@@ -1,4 +1,4 @@
-package main.java.com.sg.exception;
+package com.sg.exception;
 
 public class ItemValidationException extends Exception{
     public ItemValidationException(String message) {

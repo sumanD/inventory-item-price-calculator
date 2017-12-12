@@ -1,7 +1,8 @@
-package main.java.com.sg.service.factory;
+package com.sg.service.factory;
 
-import main.java.com.sg.domain.category.*;
-import main.java.com.sg.domain.factory.CategoryFactoryRequest;
+
+import com.sg.domain.category.*;
+import com.sg.domain.factory.CategoryFactoryRequest;
 
 public final class CategoryFactory implements Factory<ItemCategory, CategoryFactoryRequest>{
 

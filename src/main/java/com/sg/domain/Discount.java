@@ -1,4 +1,4 @@
-package main.java.com.sg.domain;
+package com.sg.domain;
 
 public class Discount {
     private int discountPercent;

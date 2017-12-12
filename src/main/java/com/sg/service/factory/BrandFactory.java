@@ -1,7 +1,8 @@
-package main.java.com.sg.service.factory;
+package com.sg.service.factory;
 
-import main.java.com.sg.domain.brand.*;
-import main.java.com.sg.domain.factory.BrandFactoryRequest;
+import com.sg.domain.brand.Brand;
+import com.sg.domain.brand.*;
+import com.sg.domain.factory.BrandFactoryRequest;
 
 public final class BrandFactory implements Factory<Brand, BrandFactoryRequest>{
 

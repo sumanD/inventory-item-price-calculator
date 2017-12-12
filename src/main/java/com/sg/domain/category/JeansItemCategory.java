@@ -1,4 +1,4 @@
-package main.java.com.sg.domain.category;
+package com.sg.domain.category;
 
 public class JeansItemCategory extends ItemCategory {
 
