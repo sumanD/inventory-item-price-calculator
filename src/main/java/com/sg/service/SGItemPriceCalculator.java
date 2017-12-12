@@ -21,7 +21,7 @@ public class SGItemPriceCalculator implements ItemPriceCalculator {
             int itemPrice = item.getItemPrice();
             int discount = discountRule.calculateDiscountPercent(item);
 
-            int itemTotal = (itemPrice ) * (discount/100);
+            int itemTotal = (itemPrice * (100 - discount))/100;
             total += itemTotal;
         }
         return total;

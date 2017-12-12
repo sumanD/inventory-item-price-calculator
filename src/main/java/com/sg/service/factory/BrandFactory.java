@@ -12,25 +12,25 @@ public final class BrandFactory implements Factory<Brand, BrandFactoryRequest>{
         String brandName = factoryRequest.getBrandName();
 
         if(brandName != null && brandName.length() > 0) {
-            switch (brandName) {
-                case "Arrow" :
-                    brand = new ArrowBrand();
-                    break;
-                case "Wrangler" :
-                    brand = new WranglerBrand();
-                    break;
-                case "Vero Moda" :
-                    brand = new VeroModaBrand();
-                    break;
-                case "UCB" :
-                    brand = new UCBBrand();
-                    break;
-                case "Adidas" :
-                    brand = new AdidasBrand();
-                    break;
-                case "Provogue" :
-                    brand = new ProvogueBrand();
-                    break;
+            brandName = brandName.trim();
+
+            if(brandName.equalsIgnoreCase("Arrow")) {
+                brand = new ArrowBrand();
+            }
+            else if(brandName.equalsIgnoreCase("Wrangler")) {
+                brand = new WranglerBrand();
+            }
+            else if(brandName.equalsIgnoreCase("Vero Moda")) {
+                brand = new VeroModaBrand();
+            }
+            else if(brandName.equalsIgnoreCase("UCB")) {
+                brand = new UCBBrand();
+            }
+            else if(brandName.equalsIgnoreCase("Adidas")) {
+                brand = new AdidasBrand();
+            }
+            else if(brandName.equalsIgnoreCase("Provogue")) {
+                brand = new ProvogueBrand();
             }
         }
         return brand;

@@ -12,7 +12,7 @@ public final class ItemFactory implements Factory<Item, ItemFactoryRequest>{
     private BrandFactory brandFactory;
     private CategoryFactory categoryFactory;
 
-    private ItemFactory() {
+    public ItemFactory() {
         this.brandFactory = new BrandFactory();
         this.categoryFactory = new CategoryFactory();
     }

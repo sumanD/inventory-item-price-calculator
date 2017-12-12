@@ -11,32 +11,32 @@ public final class CategoryFactory implements Factory<ItemCategory, CategoryFact
         ItemCategory itemCategory = null;
         String categoryName = factoryRequest.getCategoryName();
 
-        if(categoryName == null && categoryName.length() > 0) {
-            switch (categoryName) {
-                case "Men's wear" :
-                    itemCategory = new MensWearBaseCategory();
-                    break;
-                case "Women's wear" :
-                    itemCategory = new WomensWearBaseCategory();
-                    break;
-                case "Shirts" :
-                    itemCategory = new ShirtItemCategory();
-                    break;
-                case "Trousers" :
-                    itemCategory = new TrousersItemCategory();
-                    break;
-                case "Casuals" :
-                    itemCategory = new CasualsItemCategory();
-                    break;
-                case "Jeans" :
-                    itemCategory = new JeansItemCategory();
-                    break;
-                case "Dresses" :
-                    itemCategory = new DressItemCategory();
-                    break;
-                case "Footwear" :
-                    itemCategory = new FootwearItemCategory();
-                    break;
+        if(categoryName != null && categoryName.length() > 0) {
+            categoryName = categoryName.trim();
+
+            if(categoryName.equals("Men's wear")) {
+                itemCategory = new MensWearBaseCategory();
+            }
+            else if(categoryName.equals("Women's wear")) {
+                itemCategory = new WomensWearBaseCategory();
+            }
+            else if(categoryName.equals("Shirts")) {
+                itemCategory = new ShirtItemCategory();
+            }
+            else if(categoryName.equals("Trousers")) {
+                itemCategory = new TrousersItemCategory();
+            }
+            else if(categoryName.equals("Casuals")) {
+                itemCategory = new CasualsItemCategory();
+            }
+            else if(categoryName.equals("Jeans")) {
+                itemCategory = new JeansItemCategory();
+            }
+            else if(categoryName.equals("Dresses")) {
+                itemCategory = new DressItemCategory();
+            }
+            else if(categoryName.equals("Footwear")) {
+                itemCategory = new FootwearItemCategory();
             }
         }
         return itemCategory;
