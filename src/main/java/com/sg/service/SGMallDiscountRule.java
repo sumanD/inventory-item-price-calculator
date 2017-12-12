@@ -6,8 +6,6 @@ import com.sg.exception.ItemValidationException;
 
 public class SGMallDiscountRule implements DiscountRule{
 
-    private Inventory inventory;
-
     @Override
     public int calculateDiscountPercent(Item item) throws ItemValidationException {
 
@@ -35,7 +33,6 @@ public class SGMallDiscountRule implements DiscountRule{
         }
 
         // Getting highest discount percent
-
         int max = 0;
         for (int j = 0; j<100; j++) {
             if(priceArr[j] > max) {
@@ -67,5 +64,4 @@ public class SGMallDiscountRule implements DiscountRule{
             throw new ItemValidationException("Item Category is null / Category discount is negative");
         }
     }
-
 }
