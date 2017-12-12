@@ -2,6 +2,10 @@ package com.sg.domain.brand;
 
 import com.sg.domain.Discount;
 
+/**
+ * Abstract class to represent a Brand
+ * Specific Brands are implemented in respective class
+ */
 public abstract class Brand {
     protected String brandName;
     protected Discount discount;

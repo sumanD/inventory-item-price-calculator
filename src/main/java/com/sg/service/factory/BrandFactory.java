@@ -4,6 +4,9 @@ import com.sg.domain.brand.Brand;
 import com.sg.domain.brand.*;
 import com.sg.domain.factory.BrandFactoryRequest;
 
+/**
+ * Factory class for Brand Object creation
+ */
 public final class BrandFactory implements Factory<Brand, BrandFactoryRequest>{
 
     @Override

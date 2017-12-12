@@ -8,9 +8,12 @@ import com.sg.service.factory.CategoryFactory;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Utility class to construct 1st level categories
+ * These values are used during concrete child category implementation
+ */
 public final class BaseItemCategories {
-    private static final Map<String,ItemCategory> baseItemCategoryMap = new HashMap<>();
-
+    private static final Map<String,ItemCategory> baseItemCategoryMap = new HashMap<>(2);
     private static CategoryFactory categoryFactory;
 
     static {

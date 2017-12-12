@@ -5,6 +5,10 @@ import com.sg.exception.ItemValidationException;
 
 import java.util.List;
 
+/**
+ * Interface to capture final item price calculation operations.
+ *
+ */
 public interface ItemPriceCalculator {
-    public int getFinalPrice(List<Item> items) throws ItemValidationException;
+    int getFinalPrice(List<Item> items) throws ItemValidationException;
 }

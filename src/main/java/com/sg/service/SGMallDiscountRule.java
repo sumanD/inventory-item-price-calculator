@@ -4,8 +4,20 @@ import com.sg.domain.Item;
 import com.sg.domain.category.ItemCategory;
 import com.sg.exception.ItemValidationException;
 
+/**
+ * Maximum discount percentage calculation implementation for an Item.
+ *
+ * Maximum discount is calculated by comparing the Brand discount along with
+ * Item Category and its ancestor category's discount
+ */
 public class SGMallDiscountRule implements DiscountRule{
 
+    /**
+     *
+     * @param item Item on which discount percent needs to be calculated
+     * @return Maximum discount available on this item.
+     * @throws ItemValidationException Exception thrown if the item is not proper
+     */
     @Override
     public int calculateDiscountPercent(Item item) throws ItemValidationException {
 
@@ -18,7 +30,7 @@ public class SGMallDiscountRule implements DiscountRule{
         int itemCategoryDiscount = item.getItemCategory().getDiscount().getDiscountPercent();
 
         // Ancestor Category Discount
-
+        // We have assumed that the ancestor hierarchy would not be greater than 100 nodes
         int [] priceArr = new int [100];
         int i = 0;
 
@@ -43,6 +55,11 @@ public class SGMallDiscountRule implements DiscountRule{
         return max;
     }
 
+    /**
+     * Item validator
+     * @param item and Item Object
+     * @throws ItemValidationException
+     */
     private void validateItem(Item item) throws ItemValidationException{
         if(item == null) {
             throw new ItemValidationException("Item is null");

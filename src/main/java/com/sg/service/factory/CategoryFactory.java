@@ -4,6 +4,9 @@ package com.sg.service.factory;
 import com.sg.domain.category.*;
 import com.sg.domain.factory.CategoryFactoryRequest;
 
+/**
+ * Factory class for creating Item Category
+ */
 public final class CategoryFactory implements Factory<ItemCategory, CategoryFactoryRequest>{
 
     @Override

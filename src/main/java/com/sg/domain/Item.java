@@ -3,6 +3,9 @@ package com.sg.domain;
 import com.sg.domain.brand.Brand;
 import com.sg.domain.category.ItemCategory;
 
+/**
+ * Class represent an individual Item
+ */
 public class Item {
     private int itemId;
     private int itemPrice;

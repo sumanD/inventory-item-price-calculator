@@ -2,6 +2,10 @@ package com.sg.domain.category;
 
 import com.sg.domain.Discount;
 
+/**
+ * Abstract class to represent a Category
+ * Specific Category are implemented in respective class
+ */
 public abstract class ItemCategory {
     protected String name;
     protected ItemCategory parentCategory;

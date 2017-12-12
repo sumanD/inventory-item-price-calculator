@@ -7,6 +7,9 @@ import com.sg.domain.factory.BrandFactoryRequest;
 import com.sg.domain.factory.CategoryFactoryRequest;
 import com.sg.domain.factory.ItemFactoryRequest;
 
+/**
+ * Factory class for Item Creation
+ */
 public final class ItemFactory implements Factory<Item, ItemFactoryRequest>{
 
     private BrandFactory brandFactory;

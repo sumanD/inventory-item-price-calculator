@@ -9,6 +9,9 @@ import com.sg.service.factory.ItemFactory;
 
 import java.util.*;
 
+/**
+ * Main class to execute the the discount calculation program
+ */
 public class Main {
 
     private static ItemFactory itemFactory;
@@ -22,20 +25,19 @@ public class Main {
     public static void main(String[] args) throws wrongInputException, ItemValidationException {
         Map<String,Item> itemMap = new HashMap<>();
 
+        System.out.println("Enter Item Count : ");
         // Get Item List from Command LINE
-
         Scanner scanner = new Scanner(System.in);
 
         // Number of Inventory Items
         int noOfInventoryItems = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("noOfInventoryItems = " + noOfInventoryItems);
 
         for(int i=0; i<noOfInventoryItems ; i++) {
             // Get Items
-            System.out.println("Getting Lines - ");
+            System.out.println(String.format("Enter Item details, Number[{}] :-  " + i));
             String lineItem = scanner.nextLine();
-            System.out.println("lineItem = " + lineItem);
+            //System.out.println("lineItem = " + lineItem);
             Item item = parseItem(lineItem);
             String itemId = item.getItemId()+"";
             itemMap.put(itemId,item);
@@ -43,16 +45,16 @@ public class Main {
 
         // Construct InventoryDataFromRequest
 
-        System.out.println("Test Cases - ");
+        System.out.println("Enter number of Test Cases :- ");
         int testCases = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("testCases = " + testCases);
+      //  System.out.println("testCases = " + testCases);
 
         for(int j = 0; j < testCases; j++) {
             List<Item> itemList = new ArrayList<>();
-            System.out.println("Getting Test Lines - ");
+            System.out.println("Enter Test case number %s :- " + j);
             String itemListString = scanner.nextLine();
-            System.out.println("TestLine = "+ itemListString);
+          //  System.out.println("TestLine = "+ itemListString);
 
             String [] itemIdArr = itemListString.split(",");
 
