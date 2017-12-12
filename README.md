@@ -61,11 +61,11 @@ You'll also get the customer options as comma separated Id's after a newline. In
 Sample Input:
 
 5
-1, Arrow,Shirts,800
-2, Vero Moda,Dresses,1400
-3, Provogue,Footwear,1800
-4, Wrangler,Jeans,2200
-5, UCB,Shirts,1500
+1,Arrow,Shirts,800
+2,Vero Moda,Dresses,1400
+3,Provogue,Footwear,1800
+4,Wrangler,Jeans,2200
+5,UCB,Shirts,1500
 
 2
 1,2,3,4
