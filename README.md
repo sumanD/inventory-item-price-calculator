@@ -41,15 +41,15 @@ The discount that is applied is the greatest of the above three. For example, if
 So, the discount that is applied 20%.
 
 Inventory (the list of items that shop has):
-==========================================================================
+--------------------------------------------------------------------------
 Id | Brand            | Category          | Price    | Discounted Price
-==========================================================================
+--------------------------------------------------------------------------
 1  | Arrow            | Shirts            | 800      | 640
 2  | Vero Moda        | Dresses           | 1400     | 560
 3  | Provogue         | Footwear          | 1800     | 900
 4  | Wrangler         | Jeans             | 2200     | 1760
 5  | UCB              | Shirts            | 1500     | 1500
-===========================================================
+--------------------------------------------------------------------------
 
 You will be given the above table (without discounted price) in CSV form as standard input. This is the shop inventory.
 You'll also get the customer options as comma separated Id's after a newline. In the example below, 1,2,3,4 are the customer choices.
